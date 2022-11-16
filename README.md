@@ -10,32 +10,38 @@ gcc [.c] -lasound -Wno-write-strings -lpthread -o [] gcc [.c] -lasound -Wno-writ
 
 Two-Way Real-Time Voice Communication
 
+## Navigation
+1. [Description](#how-to-use)
+2. [Getting started](#types)
+3. [Architecture]
+4. [PoC]
+5. [Author]
+
+## Description
+
+
+
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
+### Installing & Setting
 
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
 
-```
-Give the example
+```bash
+$sudo apt-get install alsa-utils
+$sudo apt-get install libasound2-dev
 ```
 
 And repeat
 
 ```
-until finished
+$arecord –l 
+$plughw : [카드번호],[디바이스번호]
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
