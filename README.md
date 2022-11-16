@@ -23,23 +23,23 @@ See deployment for notes on how to deploy the project on a live system.
     - alsa-utils: Required for sound settings
     - libasound2-dev: Required for sound-related program development
 ```console
-$sudo apt-get install alsa-utils
-$sudo apt-get install libasound2-dev
+sudo apt-get install alsa-utils
+sudo apt-get install libasound2-dev
 ```
 
 - Configuring sound device in the ALSA library
 ```console
-$aplay -l
-$plughw : {card_number},{device_number}
-$arecord –l
-$plughw : {card_number},{device_number}
+aplay -l
+plughw : {card_number},{device_number}
+arecord –l
+plughw : {card_number},{device_number}
 
-$alsamixer
+alsamixer
 ```
 
 ### Running the tests
 ```console
-gcc { .cpp} -lasound -Wno-write-strings -o { }
+gcc {file_name.cpp} -lasound -Wno-write-strings -o {exe_name}
 ```
 
 ### docker
@@ -50,9 +50,6 @@ gcc { .cpp} -lasound -Wno-write-strings -o { }
 ## Architecture
 ### Test Scenario
 ![image](https://user-images.githubusercontent.com/76460405/202168003-e979e001-38b4-47fa-be5f-8709350d8306.png)
-
-
-<img align="center" width="500" height="300" src="https://user-images.githubusercontent.com/76460405/202168003-e979e001-38b4-47fa-be5f-8709350d8306.png">
 
 ### Test Bed
 ![image](https://user-images.githubusercontent.com/76460405/202168300-1d980c54-5547-483f-ba12-6907fcb7ad9a.png)
