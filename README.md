@@ -11,8 +11,8 @@ gcc [.c] -lasound -Wno-write-strings -lpthread -o [] gcc [.c] -lasound -Wno-writ
 Two-Way Real-Time Voice Communication
 
 ## Navigation
-1. [Description](#how-to-use)
-2. [Getting started](#types)
+1. [Description](#Description)
+2. [Getting started](#Getting Started)
 3. [Architecture]
 4. [PoC]
 5. [Author]
@@ -35,31 +35,23 @@ $sudo apt-get install alsa-utils
 $sudo apt-get install libasound2-dev
 ```
 
-- Configuring sound device names in the ALSA library
+- Configuring sound device in the ALSA library
 ```console
-$arecord –l 
-$plughw : [card_number],[device_number]
+$aplay -l
+$plughw : {card_number},{device_number}
+$arecord –l
+$plughw : {card_number},{device_number}
+
+$alsamixer
 ```
 
-## Running the tests
+### Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+```console
+gcc { .cpp} -lasound -Wno-write-strings -o {}
+gcc { .cpp} libportaudio.a -lrt -lm -lasound -ljack -pthread -o {}
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
