@@ -27,24 +27,19 @@ These instructions will get you a copy of the project up and running on your loc
 See deployment for notes on how to deploy the project on a live system.
 
 ### Installing & Setting
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```sh
+- Installing the ALSA library used for sound I/O in Linux
+    - alsa-utils: Required for sound settings
+    - libasound2-dev: Required for sound-related program development
+```console
 $sudo apt-get install alsa-utils
-sudo apt-get install libasound2-dev
+$sudo apt-get install libasound2-dev
 ```
 
-And repeat
-
-```
+- Configuring sound device names in the ALSA library
+```console
 $arecord –l 
-$plughw : [카드번호],[디바이스번호]
+$plughw : [card_number],[device_number]
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
