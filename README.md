@@ -57,3 +57,4 @@ gcc {file_name.cpp} -lasound -Wno-write-strings -o {exe_name}
 - Language
 <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white">
 - OS
+<img src="https://img.shields.io/badge/Raspberry Pi-A22846?style=for-the-badge&logo=Raspbian&logoColor=white">
