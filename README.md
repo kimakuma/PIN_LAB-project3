@@ -5,7 +5,7 @@ docker -> kimakuma8/ubuntu:project3
 
 gcc [.c] -lasound -Wno-write-strings -lpthread -o [] gcc [.c] -lasound -Wno-write-strings -lpthread -o []
 
-![header](https://capsule-render.vercel.app/api?type=soft&color=006EDB&fontColor=DEEAF7&height=200&width=600&section=header&text=PIN_LAB&desc=Project%203&descAlignY=80&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=soft&color=006EDB&fontColor=DEEAF7&height=200&width=1000&section=header&text=PIN_LAB&desc=Project%203&descAlignY=80&fontSize=90)
 # PIN_LAB: Project 3
 
 Two-Way Real-Time Voice Communication
