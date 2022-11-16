@@ -32,7 +32,7 @@ A step by step series of examples that tell you how to get a development env run
 
 Say what the step will be
 
-```bash
+```console
 $sudo apt-get install alsa-utils
 $sudo apt-get install libasound2-dev
 ```
