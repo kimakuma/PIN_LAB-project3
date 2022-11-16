@@ -53,8 +53,7 @@ gcc {file_name.cpp} -lasound -Wno-write-strings -o {exe_name}
 ### Test Bed
 ![image](https://user-images.githubusercontent.com/76460405/202168300-1d980c54-5547-483f-ba12-6907fcb7ad9a.png)
 
-### Stack
-- Language
+---
+
 <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white">
-- OS
 <img src="https://img.shields.io/badge/Raspbian-A22846?style=for-the-badge&logo=Raspberry Pi&logoColor=white">
