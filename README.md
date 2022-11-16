@@ -59,9 +59,9 @@ gcc {file_name.cpp} -lasound -Wno-write-strings -o {exe_name}
 ---
 
 ## Author
-
-* **Kim Hyuna** 
-- [kimakuma](https://github.com/kimakuma)
+**Kim Hyuna** 
+- [GitHub](https://github.com/kimakuma)
+- [Gmail](kimakuma808@gmail.com)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
