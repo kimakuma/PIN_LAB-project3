@@ -55,7 +55,8 @@ gcc { .cpp} -lasound -Wno-write-strings -o { }
 ---
 
 ## Architecture
-- (![Test_Scenario](https://user-images.githubusercontent.com/76460405/202167506-bd03f4ca-9c49-413a-b951-cced57797170.png)
+- Test Scenario
+![image](https://user-images.githubusercontent.com/76460405/202167691-354c86f0-4664-4796-9dfd-8020f3d18030.png)
 
 
 ## Deployment
