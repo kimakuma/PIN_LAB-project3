@@ -3,7 +3,6 @@ Two-Way Real-Time Voice Communication
 
 docker -> kimakuma8/ubuntu:project3
 
-gcc [.c] -lasound -Wno-write-strings -lpthread -o [] gcc [.c] -lasound -Wno-write-strings -lpthread -o []
 
 ![header](https://capsule-render.vercel.app/api?type=soft&color=006EDB&fontColor=DEEAF7&height=200&section=header&text=PIN_LAB&desc=Project%203&descAlignY=80&fontSize=90)
 # PIN_LAB: Project 3
@@ -13,13 +12,13 @@ Two-Way Real-Time Voice Communication
 ## Navigation
 1. [Description](#Description)
 2. [Getting started](#Getting Started)
-3. [Architecture]
+3. [Architecture](#Architecture)
 4. [PoC]
 5. [Author]
 
 ## Description
 
-
+---
 
 ## Getting Started
 
@@ -46,11 +45,16 @@ $alsamixer
 ```
 
 ### Running the tests
-
 ```console
-gcc { .cpp} -lasound -Wno-write-strings -o {}
-gcc { .cpp} libportaudio.a -lrt -lm -lasound -ljack -pthread -o {}
+gcc { .cpp} -lasound -Wno-write-strings -o { }
 ```
+
+### docker
+[kimakuma8/ubuntu:project3](https://hub.docker.com/layers/kimakuma8/ubuntu/project3/images/sha256-a7c68cba54a68254646067b6d37e700e0ff1d643d7900beafe8b2a5fcd9ea4f2?context=repo)
+
+---
+
+## Architecture
 
 
 ## Deployment
