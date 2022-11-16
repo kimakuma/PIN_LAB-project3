@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=soft&color=006EDB&fontColor=DEEAF7&height=200&section=header&text=PIN_LAB&desc=Project%203&descAlignY=80&fontSize=90)
 # PIN_LAB: Project 3
 
-Two-Way Real-Time Voice Communication
+Two-Way Real-Time Voice Communication On Raspberry PI
 
 ## Navigation
 1. [Description](#Description)
@@ -9,6 +9,10 @@ Two-Way Real-Time Voice Communication
 3. [Architecture](#Architecture)
 
 ## Description
+Two-way real-Time voice communication with two Raspberry PI boards
+- Managing sound I/O using ALSA and libasound2-dev library
+- Using multithread
+- TCP communication between server and client
 
 ---
 
