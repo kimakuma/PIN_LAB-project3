@@ -32,9 +32,9 @@ A step by step series of examples that tell you how to get a development env run
 
 Say what the step will be
 
-```console
+```sh
 $sudo apt-get install alsa-utils
-$sudo apt-get install libasound2-dev
+sudo apt-get install libasound2-dev
 ```
 
 And repeat
