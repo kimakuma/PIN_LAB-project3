@@ -5,9 +5,9 @@ Two-Way Real-Time Voice Communication
 
 ## Navigation
 1. [Description](#Description)
-2. [Getting started](#Getting Started)
+2. [Getting started](#Getting-Started)
 3. [Architecture](#Architecture)
-4. [Author]
+4. [Author](#Author)
 
 ## Description
 
@@ -60,7 +60,8 @@ gcc {file_name.cpp} -lasound -Wno-write-strings -o {exe_name}
 
 ## Author
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Kim Hyuna** 
+- [kimakuma](https://github.com/kimakuma)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
