@@ -3,6 +3,8 @@
 
 Two-Way Real-Time Voice Communication On Raspberry PI
 
+---
+
 ## Navigation
 1. [Description](#Description)
 2. [Getting started](#Getting-Started)
