@@ -8,6 +8,8 @@ Two-Way Real-Time Voice Communication On Raspberry PI
 2. [Getting started](#Getting-Started)
 3. [Architecture](#Architecture)
 
+---
+
 ## Description
 Two-way real-Time voice communication with two Raspberry PI boards
 - Managing sound I/O using ALSA and libasound2-dev library
